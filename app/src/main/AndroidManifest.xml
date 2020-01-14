@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mi_spinner"></activity>
+        <activity android:name=".comunicacion1"></activity>
+        <activity
+            android:name=".AcercaDe"
+            android:label="Acerca de ..."
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".mi_spinner" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".layout2" />
         <activity android:name=".MainActivity" />

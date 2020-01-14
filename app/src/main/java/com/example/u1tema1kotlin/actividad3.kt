@@ -64,4 +64,12 @@ class actividad3 : AppCompatActivity() {
         alert.show()
     }
 
+    fun AcercaDe(view: View) {
+        startActivity(Intent(this, AcercaDe::class.java))
+    }
+
+    fun Salir(view: View) {
+        finish()
+    }
+
 }
