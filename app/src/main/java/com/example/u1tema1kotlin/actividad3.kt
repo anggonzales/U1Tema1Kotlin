@@ -68,8 +68,16 @@ class actividad3 : AppCompatActivity() {
         startActivity(Intent(this, AcercaDe::class.java))
     }
 
+    fun manipulacion(view: View) {
+        startActivity(Intent(this, Manipulacion::class.java))
+    }
+
     fun Salir(view: View) {
         finish()
+    }
+
+    fun comunicacion1(view: View) {
+        startActivity(Intent(this, comunicacion1::class.java))
     }
 
 }
